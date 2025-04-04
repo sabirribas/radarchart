@@ -2,12 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def plot(df, norm_max=True, streamlit=False):
+def plot(df, norm_max=False, streamlit=False):
     df = df.copy()
-    # if type(norm_max) == list:
-    df /= norm_max
-    # if norm_max:
-    #     df /= df.max()
+    if norm_max:
+        df /= df.max()
 
     angles = np.linspace(0, 2 * np.pi, len(df.columns), endpoint=False)
     angles = np.concatenate((angles, [angles[0]]))  # close the plot
