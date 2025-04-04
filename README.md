@@ -1,2 +1,2 @@
-# radarchart
-RadarChart: A Python library for creating customizable radar charts (spider plots)
+# RadarChart
+A Python library for creating customizable radar charts (spider plots).
