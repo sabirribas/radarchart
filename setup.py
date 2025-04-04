@@ -5,8 +5,8 @@ with open("requirements.txt") as f:
     install_requires = f.read().splitlines()
 
 setup(
-    name="radarchart",
-    version="0.0.1",
+    name="radarchart-py",
+    version="0.1.0",
     author="Sabir Ribas",
     author_email="sabirribas+pypi@gmail.com",
     description="RadarChart: A Python library for customizable radar charts (spider plots)",
