@@ -33,4 +33,11 @@ norm_max = st.checkbox('Normalize', True)
 fig, ax = plot(df_, norm_max=norm_max, streamlit=True)
 st.write(fig)
 
+st.write('Radar Chart metrics:')
+
 st.dataframe(df_)
+
+st.write(f'Uplift compared to baseline (`{df_.index[0]}`):')
+
+df_uplift = df_ / df_.iloc[0] - 1
+st.dataframe(df_uplift.iloc[1:])
