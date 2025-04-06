@@ -53,7 +53,7 @@ def example_dataframe():
         [0.8, 0.7, 0.7, 0.7, 0.7, 0.7],
         [0.9, 0.8, 0.8, 0.8, 0.8, 0.8],
     ])
+    df.columns = ['P1', 'P5', 'P10', 'P20', 'P50', 'P100']
     df.index = ['Model-A', 'Model-B', 'Model-C']
     df.index.name = 'Model'
-    df.columns = ['P1 P5 P10 P20 P50 P100'.split()]
     return df
