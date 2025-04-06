@@ -6,7 +6,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="radarchart-py",
-    version="0.1.4",
+    version="0.1.5",
     author="Sabir Ribas",
     author_email="sabirribas+pypi@gmail.com",
     description="RadarChart: A Python library for customizable radar charts (spider plots)",
