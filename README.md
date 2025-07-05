@@ -1,7 +1,13 @@
 # RadarChart
 A Python library for creating customizable radar charts (spider plots).
 
-## How to use it
+## How to install
+
+```bash
+pip install radarchart-py
+```
+
+## How to use
 
 **Step 1**: Import the `radarplot` library.
 
