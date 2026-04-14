@@ -27,3 +27,8 @@ Homepage = "https://github.com/sabirribas/radarchart"
 
 [project.scripts]
 radarchart = "radarchart.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["radarchart*"]
+exclude = ["venv*", ".venv*", "dist*", "*.egg-info*"]
