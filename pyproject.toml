@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "radarchart-py"
-version = "0.1.10"
+version = "0.2.0"
 description = "RadarChart: A Python library for customizable radar charts (spider plots)"
 readme = "README.md"
 license = { text = "MIT" }
