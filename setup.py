@@ -6,7 +6,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="radarchart-py",
-    version="0.1.7",
+    version="0.1.8",
     author="Sabir Ribas",
     author_email="sabirribas+pypi@gmail.com",
     description="RadarChart: A Python library for customizable radar charts (spider plots)",
@@ -20,11 +20,11 @@ setup(
     ],
     license="MIT",
     packages=find_packages(),
-    python_requires=">=3.6",
+    python_requires=">=3.9",
     install_requires=install_requires,  # Load dependencies from file
     entry_points={
-        'console_scripts': [
-            'radarchart=radarchart.main:main',  # Example CLI entry point
+        "console_scripts": [
+            "radarchart=radarchart.main:main",  # Example CLI entry point
         ],
     },
     include_package_data=True,
